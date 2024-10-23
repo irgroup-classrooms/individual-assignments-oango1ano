@@ -1,7 +1,27 @@
-- Add a to do list with things you have heard about today and would like to learn throughout the semester. You can update this list during the semester by checking things you have learned.
-# to do list
+# Assignment no 1
+## to do list
+
+- [ ] learn SQL
+- [ ] get better in Python
+- [ ] learn GitHub
 ---
-- Add a table that documents the markdown syntax, which you can use as your personal cheat sheet throughout the semester.
-- Add a quote (about data science or sth. more general) that inspires you.
+
+## personal cheat sheet
+
+| Element | Markdown Syntax |
+| ----------- | ----------- |
+| Checkbox | - [ ] |
+| Emoji | :text: |
+| Footnote | [^1]; [^1]: |
+| Blockquote |	> blockquote | 
+| Code	| \`code` |
+| Link	| \[title](https://www.example.com) |
+| Image	| \![alt text]\(image.jpg)
+---
+## inspiring quote
+> "Nothing is impossible. The word itself says 'I'm possible!'" — Audrey Hepburn
+---
+## code snippet
+
 - Add verbatim code. With a code snippet that is already familiar to you. Alternatively, write Python code that prints "Hello World!".
 - Add three other markdown-formatted contents. Also insert headings with appropriate levels.
