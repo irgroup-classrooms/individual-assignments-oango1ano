@@ -1,7 +1,8 @@
 # Assignment 2
+*all of the following commands are written and run through terminal on Mac*
 ## Task 1 
 ### Exercises 
-*all of the following commands are written and run through terminal on Mac*
+
 | command | output |
 |---|---|
 | ```date``` | Mi 23 Okt 2024 17:50:24 CEST |
@@ -12,6 +13,16 @@
 | ```ls -t``` | sort by modification time, newest first |
 | ```touch``` | Create a new file |
 | ```ls -l``` | timestamp |
+| ```less textfilename```| views textfile |
+| -> ```q``` | quit out of less and go back to your shell |
+| -> ```Page up, Page down, Up and Down``` | Navigate using the arrow keys and page keys |
+| -> ```Page up, Page down, Up, Down``` |  |
+| -> ```g``` | Moves to beginning of the text file |
+| -> ```G``` | Moves to the end of the text file |
+| -> ```/(x)``` | search for specific text inside the text document |
+| -> ```h``` | If you need a little help about how to use less while you’re in less, use help |
+
+
 
 
 ---
@@ -25,4 +36,5 @@
 | How do you create a file called myfile? | ```touch myfile``` |
 | What command can you use to find the file type of a file? | ```file filename``` |
 | What's a good way to see the contents of a file? | ```cat filename``` | 
+| How do you quit out of a less command? | ```q``` |
 
