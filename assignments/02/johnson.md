@@ -21,7 +21,19 @@
 | -> ```G``` | Moves to the end of the text file |
 | -> ```/(x)``` | search for specific text inside the text document |
 | -> ```h``` | If you need a little help about how to use less while you’re in less, use help |
-
+| ```cp``` | copy of a files or filestamp | 
+| ```mv oldfile newfile``` | Rename a file |
+|```mv file2 /home/pete/Documents```|move that file to a different directory|
+|```touch -file```|Create a file called -file |
+|```rm -file``` |Remove that file|
+| ```find /users/johnsonbpt -name net``` | Find a file from the root directory that has the word net in it |
+|```echo --help```| --help |
+|```logout --help```| ...copying shared history...;...saving history...truncating history files...;...completed. |
+|```pwd --help```|pwd: bad option: -h|
+|```man ls```| Manual Command Center |
+| ```alias foobar='ls -la'``` | Create Alias | 
+| ```unalias foobar```| Remove Alias | 
+| ```exit``` | beenden |
 
 
 
@@ -37,4 +49,16 @@
 | What command can you use to find the file type of a file? | ```file filename``` |
 | What's a good way to see the contents of a file? | ```cat filename``` | 
 | How do you quit out of a less command? | ```q``` |
+| What is the command to clear the terminal? | ```clear``` |
+| What flag do you need to specify to copy over a directory? | ```cp -r``` |
+| How do you rename a file called cat to dog? | ```mv cat dog```| 
+| What command is use to make a directory? | ```mkdir```| 
+|How do you remove a file called myfile?| ```rm myfile```|
+| What option should I specify for find if I want to search by name? |```find ... -name ... ``` |
+| How do you get quick command line help for built-in bash commands? | ```help``` |
+| How do you see the manuals for a command? | ```man ...``` |
+| What command can you use to see a small description of a command? | ```whatis```|
+| What command is used to make an alias? | ```alias``` |
+| How can you exit from the shell? | ```exit```| 
+
 
