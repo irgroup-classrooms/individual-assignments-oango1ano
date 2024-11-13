@@ -14,3 +14,8 @@ wc -l /Users/johnsonbpt/GitHub/shell-lesson/*.tsv
     5375 /Users/johnsonbpt/GitHub/shell-lesson/2014-02-02_JA-britain.tsv
   554211 total
 
+# Aufgabe 3: Datei mit den meisten Zeilen finden
+wc -l /Users/johnsonbpt/GitHub/shell-lesson/*.tsv | sort -nr | head -n 1
+
+554211 total
+  507732 /Users/johnsonbpt/GitHub/shell-lesson/2014-01_JA.tsv
