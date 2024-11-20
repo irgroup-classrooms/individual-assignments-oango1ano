@@ -1,9 +1,9 @@
-##Datensatzfelder dokumentieren und beschreiben 
+## Datensatzfelder dokumentieren und beschreiben 
 - char: Der Name des Charakters, der die Zeile spricht.
 - dialog: Der gesprochene Text.
 - movie: Der Film, aus dem die Zeile stammt (Fellowship, Two Towers, Return of the King).
 
-##Befehle
+## Befehle
 
 1. Create project
 2. Mass edit 1 cells in column dialog
